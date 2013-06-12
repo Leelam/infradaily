@@ -31,7 +31,7 @@ include 'header.php';
             	<div class="span12">
                 	<div class="span6">
                     	<div class="area">
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" name="sigin" method="post" action="login.php">
                                 <div class="heading">
                                     <h4 class="form-heading">Sign In</h4>
                                 </div>
