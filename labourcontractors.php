@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Academy-Industry Interface</h1>
+              <h1>Labour Contractors</h1>
       </div>
       </div>
      </div>

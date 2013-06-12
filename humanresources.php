@@ -1,6 +1,9 @@
 
 <?php
+include 'head.php';
 include 'header.php';
+include_once('assets/inc/Connect.class.php');
+$obj=new connect();
 ?>
 
     <!-- NAVBAR
@@ -10,12 +13,12 @@ include 'header.php';
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    
+    <div id="the_real_content">
   <header class="page-header">
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Company Profile</h1>
+              <h1>Human Resources</h1>
       </div>
       </div>
      </div>
@@ -25,66 +28,54 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span12">
-          <p>We INFRADALY would like to be platform where a full menu of project management solutions made 
+        <div class="span9">
+        	<p>Human resource management (HRM, or simply HR) is the management of an organization's workforce, or human resources. It is responsible for the attraction, selection, training, assessment, and rewarding of employees, while also overseeing organizational leadership and culture, and ensuring compliance with employment and labor laws.</p>
+        	<p>REGISTER IN THIS CAREER FORUM FROM THE BIGGEST JOB GROUP. Be a PART OF THIS platform and enable yourself get identified to the world of opportunities.  WHAT ARE YOU WAITING FOR ? REGISTER NOW AND START INTERACTING WITH THE BEST IN CLASS PEOPLE.</p>
+        	<p>For an employeer , it is an opportunity to get the cream of the stream.</p>
 
+<p><b>Available Resources:</b></p>
+          <?php
+$Execution=$obj->conn->prepare("SELECT * FROM civil_hr");
+$Execution->execute();
+                    echo "   <table class='table table-bordered'>";
+echo "<th>s.no</th>";
+echo "<th>Name</th>";
+echo "<th>Field of Expertise</th>";
+echo "<th>Years of Experience</th>";
+echo "<th>Present Designation</th>";
+echo "<th>Contact Details</th>";
+echo "<th>Resume</th>";
+while($Executionteam=$Execution->fetch()){
+?>
+<tr>
+<td><?php echo $Executionteam['sno']; ?></td>
+<td><?php echo $Executionteam['fname']; ?></td>
+<td></td>
+<td></td>
+<td><?php echo $Executionteam['designation']; ?></td>
+<td><?php echo $Executionteam['phone'];
+echo "<br>";
+echo $Executionteam['email'];
+?>
 
+</td>
+<td></td>
 
-available to address the challenges that clients, vendors , users and investors in infrastructure face 
-
-
-
-across the globe. Our solutions include a network connectivity to the entire Project Development Life 
-
-
-
-Cycle by building a network of professionals, where a user can find a solution provider to his issue.
-</p>
-<p>
-INFRA DAILY is primarily focused on the infrastructure platform necessary to create value for our 
-
-
-
-clients from our scale. This platform is built to deliver “Center of Excellence” support in several areas, 
-
-
-
-including:
-
-</p>
-<ul>
-
- <li>Supply Chain Management </li>
-
-
-
- <li>Human Resource Management </li>
-
-
-
- <li>Strategic Sourcing - FUSION platform is positioned to enable us to convert unequaled project 
-volume into real cash savings and value creation for our clients. </li>
-
-<li> Sustainability - provide guidance and advice to clients on sustainable and occupancy strategies.</li>
-</ul>
-<li>Strategic Sourcing - FUSION platform is positioned to enable us to convert unequaled project 
-volume into real cash savings and value creation for our clients. </li>
-<li> Sustainability - provide guidance and advice to clients on sustainable and occupancy strategies.</li>
-<p>
-For our users we have made a platform which has a team comprises of Engineers, Planners, MBAs, 
-
-
-
-Chartered Accountants, Social &amp; Environmental Scientists and Legal Advisory experts who support 
-
-
-
-clients to address specific infrastructure procurement challenges.
-</p>
+</tr>
+                       <?php
+}
+echo "</table>";
+?>   
+         
+            </div>
+            <div class="span3">
+<?php  
+include_once 'servicessidebar.php';
+?>
             </div>
         </div>
   </div>
-
+</div>
 
 
     <!-- Footer

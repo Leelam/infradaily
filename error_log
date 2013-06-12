@@ -1,0 +1,80 @@
+[02-Jun-2013 10:21:51 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/supplychainmanagement.php on line 33
+[02-Jun-2013 10:40:04 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/humanresources.php on line 33
+[02-Jun-2013 10:41:20 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/plantmachinery.php on line 33
+[02-Jun-2013 10:46:05 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/humanresources.php on line 33
+[02-Jun-2013 11:35:16 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/executionteam.php on line 33
+[02-Jun-2013 11:36:22 Asia/Calcutta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/executionteam.php on line 33
+[02-Jun-2013 18:20:06 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/infradai/public_html/legaladvisoryservices.php on line 37
+[03-Jun-2013 12:17:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/infradai/public_html/humanresources.php on line 56
+[03-Jun-2013 15:54:27 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahesh@leelam.com-8121542630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 15:54:46 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'gopimosali-mahesh@leelam.com' for key 'username'' in /home/infradai/public_html/registrationdb.php:60
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(60): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 60
+[03-Jun-2013 16:10:42 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'gopimosali-mahesh@leelam.com-' for key 'username'' in /home/infradai/public_html/registrationdb.php:60
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(60): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 60
+[03-Jun-2013 16:16:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahesh@leelam.com-8121542630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 16:16:18 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahesh@leelam.com-8121542630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 16:26:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahesh@leelam.com-8121542630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 12:57:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/infradai/public_html/registrationdb.php on line 52
+[03-Jun-2013 16:28:22 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahesh@leelam.com-8121542630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 16:29:31 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/infradai/public_html/registrationdb.php:64
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(64): PDOStatement->execute()
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 64
+[03-Jun-2013 16:30:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahfdfesh@leelam.com-81215442630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 16:30:52 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahfdfesh@leelam.com-81215442630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 13:01:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/infradai/public_html/registrationdb.php on line 70
+[03-Jun-2013 16:32:10 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahfdfesh@leelam.com-81215442630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[03-Jun-2013 16:32:46 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'masfdsdhfdfesh@leelam.com-812115442630' for key 'email'' in /home/infradai/public_html/registrationdb.php:33
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(33): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 33
+[04-Jun-2013 15:53:53 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'mahesh@leelam.com-8121542630' for key 'email'' in /home/infradai/public_html/registrationdb.php:38
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(38): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 38
+[05-Jun-2013 16:04:40 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'gaddevenkat-gaddevenkat86@gmail.com-' for key 'username'' in /home/infradai/public_html/registrationdb.php:78
+Stack trace:
+#0 /home/infradai/public_html/registrationdb.php(78): PDO->exec('INSERT INTO civ...')
+#1 {main}
+  thrown in /home/infradai/public_html/registrationdb.php on line 78

@@ -1,6 +1,9 @@
 
 <?php
+include 'head.php';
 include 'header.php';
+include_once('assets/inc/Connect.class.php');
+$obj=new connect();
 ?>
 
     <!-- NAVBAR
@@ -10,12 +13,12 @@ include 'header.php';
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    
+    <div id="the_real_content">
   <header class="page-header">
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Company Profile</h1>
+              <h1>Quality Assurance</h1>
       </div>
       </div>
      </div>
@@ -25,66 +28,51 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span12">
-          <p>We INFRADALY would like to be platform where a full menu of project management solutions made 
-
-
-
-available to address the challenges that clients, vendors , users and investors in infrastructure face 
-
-
-
-across the globe. Our solutions include a network connectivity to the entire Project Development Life 
-
-
-
-Cycle by building a network of professionals, where a user can find a solution provider to his issue.
+        <div class="span9">
+         <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. </p>
+         <p>Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality, health & safety, environmental and social responsibility imperatives, whether they are:</p>
+         <p><b>-regulatory: </b>imposed by applicable codes or regulations which condition the “license to operate”,</p>
+         <p><b>-voluntary:</b> based on sector specific requirements or recognized international standards,</p>
+        <p><b>-proprietary:</b> based on client's own schemes, standards or requirements.</p>
+        <p>This portal enables you to enlist and identify as a Quality Assurance experts, who will enable the clients to do so and they are able to carry out inspections of client's facilities, equipment and products, and audits of your systems and processes against practically any referential basis. In a number of cases, inspections and audits will ultimately enable clients to grant a certification from the Certifying Agency to any organisation.
 </p>
-<p>
-INFRA DAILY is primarily focused on the infrastructure platform necessary to create value for our 
+<p><b>Associated Quality Assurance Experts are:</b></p>
+<?php
+$Execution=$obj->conn->prepare("SELECT * FROM civil_scm");
+$Execution->execute();
+                    echo "   <table class='table table-bordered'>";
+echo "<th>s.no</th>";
+echo "<th>Name ";
+echo "<th>Expertise</th>";
+echo "<th>Location</th>";
+echo "<th>Contact Details</th>";
+echo "<th>Profile</th>";
 
+while($Executionteam=$Execution->fetch()){
+?>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 
+</tr>
+                       <?php
+}
+echo "</table>";
+?>   
 
-clients from our scale. This platform is built to deliver “Center of Excellence” support in several areas, 
-
-
-
-including:
-
-</p>
-<ul>
-
- <li>Supply Chain Management </li>
-
-
-
- <li>Human Resource Management </li>
-
-
-
- <li>Strategic Sourcing - FUSION platform is positioned to enable us to convert unequaled project 
-volume into real cash savings and value creation for our clients. </li>
-
-<li> Sustainability - provide guidance and advice to clients on sustainable and occupancy strategies.</li>
-</ul>
-<li>Strategic Sourcing - FUSION platform is positioned to enable us to convert unequaled project 
-volume into real cash savings and value creation for our clients. </li>
-<li> Sustainability - provide guidance and advice to clients on sustainable and occupancy strategies.</li>
-<p>
-For our users we have made a platform which has a team comprises of Engineers, Planners, MBAs, 
-
-
-
-Chartered Accountants, Social &amp; Environmental Scientists and Legal Advisory experts who support 
-
-
-
-clients to address specific infrastructure procurement challenges.
-</p>
+            </div>
+            <div class="span3">
+<?php  
+include_once 'servicessidebar.php';
+?>
             </div>
         </div>
   </div>
-
+</div>
 
 
     <!-- Footer

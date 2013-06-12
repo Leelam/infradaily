@@ -1,5 +1,6 @@
 
 <?php
+include 'head.php';
 include 'header.php';
 ?>
 
@@ -10,12 +11,12 @@ include 'header.php';
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    
+    <div id="the_real_content">
   <header class="page-header">
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Company Profile</h1>
+              <h1>Director's Message</h1>
       </div>
       </div>
      </div>
@@ -25,66 +26,22 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span12">
-          <p>We INFRADALY would like to be platform where a full menu of project management solutions made 
-
-
-
-available to address the challenges that clients, vendors , users and investors in infrastructure face 
-
-
-
-across the globe. Our solutions include a network connectivity to the entire Project Development Life 
-
-
-
-Cycle by building a network of professionals, where a user can find a solution provider to his issue.
-</p>
-<p>
-INFRA DAILY is primarily focused on the infrastructure platform necessary to create value for our 
-
-
-
-clients from our scale. This platform is built to deliver “Center of Excellence” support in several areas, 
-
-
-
-including:
-
-</p>
-<ul>
-
- <li>Supply Chain Management </li>
-
-
-
- <li>Human Resource Management </li>
-
-
-
- <li>Strategic Sourcing - FUSION platform is positioned to enable us to convert unequaled project 
-volume into real cash savings and value creation for our clients. </li>
-
-<li> Sustainability - provide guidance and advice to clients on sustainable and occupancy strategies.</li>
-</ul>
-<li>Strategic Sourcing - FUSION platform is positioned to enable us to convert unequaled project 
-volume into real cash savings and value creation for our clients. </li>
-<li> Sustainability - provide guidance and advice to clients on sustainable and occupancy strategies.</li>
-<p>
-For our users we have made a platform which has a team comprises of Engineers, Planners, MBAs, 
-
-
-
-Chartered Accountants, Social &amp; Environmental Scientists and Legal Advisory experts who support 
-
-
-
-clients to address specific infrastructure procurement challenges.
-</p>
+        <div class="span9">
+          <blockquote>
+  <p>" A man would do nothing, if he could do so well that no one would find fault with what he had done"</p>
+  <small class="pull-right">CARDIAL NEWMAN </small>
+</blockquote>
+<p>we constantly strive to imbibe the philosophy of Infinity to shape our vision, strategy, people empowerment, and our approach to our business. </p>
+<P>As we orbit into a higher realm,we need to sustain the momentum and play a lead role in the infrastructure domain. We need to reequip ourselves with all that it takesto continually evolve to remain the fittest for the business ecology as it evolves</p>
+            </div>
+            <div class="span3">
+<?php  
+include_once 'sidebar.php';
+?>
             </div>
         </div>
   </div>
-
+</div>
 
 
     <!-- Footer

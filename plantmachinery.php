@@ -2,6 +2,8 @@
 <?php
 include 'head.php';
 include 'header.php';
+include_once('assets/inc/Connect.class.php');
+$obj=new connect();
 ?>
 
     <!-- NAVBAR
@@ -16,7 +18,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Academy-Industry Interface</h1>
+              <h1>Plant & Machinery</h1>
       </div>
       </div>
      </div>
@@ -27,7 +29,38 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
+          <?php
+$Execution=$obj->conn->prepare("SELECT * FROM civil_pm");
+$Execution->execute();
+                    echo "   <table class='table table-bordered'>";
+echo "<th>s.no</th>";
+echo "<th>Name of the Firm/Vendor</th>";
+echo "<th>Equipment Name</th>";
+echo "<th>Model & Make</th>";
+echo "<th>Location</th>";
+echo "<th>For Hire / For Sale</th>";
+echo "<th>Contact Details</th>";
+echo "<th>Photographs</th>";
+while($Executionteam=$Execution->fetch()){
+?>
+<tr>
+<td><?php echo $Executionteam['sno']; ?></td>
+<td><?php echo $Executionteam['fname']; ?></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><?php echo $Executionteam['phone'];
+echo "<br>";
+echo $Executionteam['email'];
+?>
+<td></td>
+</tr>
+                       <?php
+}
+echo "</table>";
+?>   
+         
             </div>
             <div class="span3">
 <?php  

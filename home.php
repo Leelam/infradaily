@@ -1,177 +1,80 @@
+<?php /*
+Author : Gopala Krishna
+File : home.php
+Description: landing page
+***********************************/
+?>
+<?php 
+include 'head.php';
+include 'header.php';
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Carousel Template &middot; Bootstrap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Gopala krishna">
+?>
 
-    <!-- Le styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css">
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/override.css">   
- 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-    <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="assets/ico/favicon.png">
-  </head>
+<!-- REAL CONTENT 
+	****************************************-->
+<div id="homeslider">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span12">
+				<div id="myCarousel" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="item">
+							<img src="assets/images/2.jpg" alt="">
+							<div class="container">
+								
+							</div>
+						</div>
+						<div class="item active">
+							<img src="assets/images/5.jpg" alt="">
+							<div class="container">
+							
+							</div>
+						</div>
+						<div class="item">
+							<img src="assets/images/6.jpg" alt="">
+							<div class="container">
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <body>
-   <!-- Brand
-    ================================================== -->
-   <div class="container" style="height: 90px;">
-    <div class="row-fluid" style="padding-top:10px;">
-      <div class="span4">
-        <h1><i class="icon-reorder"></i> InfraDaily</h1>
-      </div>
-      <div class="span8">
-        <ul class="nav nav-pills pull-right" style="padding-top: 15px;margin-bottom:0">
-          <li class="active"><a href="home.php">Home</a></li>
-          <li class="dropdown">
-          <a href="about.php" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="companyprofile.php">Company Profile</a></li>
-                    <li><a href="directormessage.php">Director's Message</a></li>
-                    <li><a href="vision.php">Vision</a></li>
-                    <li><a href="obectives.php">Qualit Polic & Obectives</a></li>
-                </ul>
-            </li>
-          <li class="dropdown">
-          <a href="services.php" class="dropdown-toggle" data-toggle="dropdown">Our Services <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-submenu">
-                    	<a tabindex="-1" href="tenderingservices.php">Tendering Services</a>
-                    	<ul class="dropdown-menu">
-      <li><a href="activetenders.php">Active Tenders/works</a></li>
-      <li><a href="jvpartners.php">JV Partners</a></li>
-    </ul>
-                    </li>
-      <li class="dropdown-submenu">
-                    	<a tabindex="-1" href="executionteam.php">Execution Team</a>
-                    	<ul class="dropdown-menu">
-      <li><a href="subcontractors.php">Sub-Contractors</a></li>
-      <li><a href="barbendingcontractors.php">Bar-Bending Contractors</a></li>
-       <li><a href="shutteringcontractors.php">Shuttering Contractors</a></li>
-      <li><a href="labourcontractors.php">Labour Contractors</a></li>
-    </ul>
-                    </li>
-                    <li><a href="supplychainmanagement.php">Supply Chain Management</a></li>
-                    <li><a href="legaladvisoryservices.php">Legal Advisory Services</a></li>
-                   <li><a href="qualityassurance.php">Quality Assurance</a></li>
-                   <li><a href="humanresources.php">Human Resources</a></li>
-                   <li><a href="plantmachinery.php">Plant & Machinery</a></li>
-                   <li><a href="financeaccounting.php">Finance & Accounting</a></li>
-                   <li><a href="civilconsultancyservices.php">Civil Consultancy Services</a></li>
-                   <li><a href="academyindustryinterface.php">Academy-Industry Interface</a></li>
-                </ul>
-            </li>
-          
-                    <li><a href="ourclients.php">
-                        Our Clients
-                    </a></li>
-                    <li><a href="faqs.php">FAQs</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-   </div> 
-
-<!-- Carousel
-    ================================================== -->
-    <div class="container">
-    	<div class="row-fluid">
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="assets/img/2.jpg" alt="">
-          <div class="container">
-           
-          </div>
-        </div>
-        <div class="item">
-          <img src="assets/img/5.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="assets/img/7.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="assets/img/6.jpg" alt="">
-          <div class="container">
-            <div class="carousel-caption">
-              
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div>
 </div>
-</div>
-    <!-- /.carousel -->
 
-
-
-
-    <!-- NAVBAR
-    ================================================== -->
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    
-  
-<div class="container marketing">
+<div id="lmservices">
+	<div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row-fluid">
         <div class="span4">
-          <div class="super-mo" style="background-color:rgb(221, 221, 0);">
-             <div> <i class="icon-certificate"></i></div>
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-bullhorn" style="color:#9ACD32;"></i></div>
           </div>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <h3>Tendering Services</h3>
+          <p>Welcome to this session, this section of portal deals with all the domestic tenders and the organizations who are looking for Joint Venture (JV) partnerships This is the online destination for government tenders, RFPs, RFQs, RFX in India. You can also find a large no. of tenders publishe</p>
+          <p><a class="btn" href="tenderingservices.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <div class="super-mo" style="background-color:rgb(255, 153, 0);color:white">
-             <div> <i class="icon-html5"></i></div>
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);color:white">
+             <div> <i class="icon-group"></i></div>
           </div>
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h3>Execution Team</h3>
+          <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality,</p>
+          <p><a class="btn" href="executionteam.php">Read More <i class="icon-arrow-right"></i></a></p>
           
         </div><!-- /.span4 -->
         <div class="span4">
-          <div class="super-mo" style="background-color:rgb(221, 0, 221);">
-             <div> <i class="icon-level-up"></i></div>
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-road" style="color:#CCFF99"></i></div>
           </div>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <h3>Supply Chain Management</h3>
+          <p>Supply chain management (SCM) is the combination of art and science that goes into improving the way your company finds the raw components it needs to make a product or service and deliver it to customers. PLAN  This is the strategic portion of SCM. You need a strategy for managing all the re</p>
+          <p><a class="btn" href="supplychainmanagement.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
 
@@ -179,109 +82,76 @@
 
             <div class="row-fluid">
         <div class="span4">
-          <div class="super-mo" style="background-color:rgb(221, 221, 0);">
-             <div> <i class="icon-shield"></i></div>
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-unlock on icon-key" style="color:#FF0000"></i></div>
           </div>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <h3>Legal Advisory Services</h3>
+          <p>Arbitration in a mode for settlement of disputes between the parties. It has a social purpose to fulfill. Today, it has urgency when there has been an explosion of litigation in the courts of Law. The judicial system prevalent in courts is governed by procedural Laws. Many provisions are very techni</p>
+          <p><a class="btn" href="legaladvisoryservices.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <div class="super-mo" style="background-color:rgb(255, 153, 0);color:white">
-             <div> <i class="icon-code"></i></div>
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);color:white">
+             <div> <i class="icon-thumbs-up "style="color:#FFFF00;"></i></div>
           </div>
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details »</a></p>
+          <h3>Quality Assurance</h3>
+          <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality,</p>
+          <p><a class="btn" href="qualityassurance.php">Read More <i class="icon-arrow-right"></i></a></p>
         </div><!-- /.span4 -->
         <div class="span4">
-          <div class="super-mo" style="background-color:rgb(221, 0, 221);">
-             <div> <i class="icon-terminal on icon-sign-blank"></i></div>
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-rocket" style="color:#FF00FF;"></i></div>
           </div>
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details <i class="icon-arrow-right"></i> </a></p>
+          <h3>Human Resources</h3>
+          <p>Human resource management (HRM, or simply HR) is the management of an organization's workforce, or human resources. It is responsible for the attraction, selection, training, assessment, and rewarding of employees, while also overseeing organizational leadership and culture, and ensuring compliance</p>
+          <p><a class="btn" href="humanresources.php">Read More <i class="icon-arrow-right"></i></a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+      <div class="row-fluid">
+        <div class="span4">
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-anchor" style="color:#EE82EE;"></i></div>
+          </div>
+          <h3>P&M-Bridging</h3>
+          <p>As an operator in the construction, one has to manage all quality, health & safety and environmental aspects of construction works, from design to completion. Every organization wants to show responsibility by making sure that its facilities, equipment, products and services comply with quality,</p>
+          <p><a class="btn" href="plantmachinery.php">Read More <i class="icon-arrow-right"></i></a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);color:white">
+             <div> <i class="icon-book" style="color:#2E8B57;"></i></div>
+          </div>
+          <h3>Finance & Accounting</h3>
+          <p>rbitration in a mode for settlement of disputes between the parties. It has a social purpose to fulfill. Today, it has urgency when there has been an explosion of litigation in the courts of Law. The judicial system prevalent in courts is governed by procedural Laws. Many provisions are very techni</p>
+          <p><a class="btn" href="financeaccounting.php">Read More <i class="icon-arrow-right"></i></a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <div class="super-mo" style="background-color:rgb(44, 44, 44);">
+             <div> <i class="icon-lightbulb " style="red;"></i></div>
+          </div>
+          <h3>Consultancy Services</h3>
+          <p>Under the flagship of M/s. PAYOSHNI TECHNO SOLUTIONS PVT. LTD. and with a mission of Getting Quality Project Output, we offers an integrated suite of services across all sectors of infrastructure. A complete focus on infrastructure development has enabled us to provide these services through a</p>
+          <p><a class="btn" href="civilconsultancyservices.php">Read More <i class="icon-arrow-right"></i> </a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
 
 
+
+    <!-- Testimonials -->
+    
+ 
+
+      <!-- /END THE FEATURETTES -->
+
     </div>
 
+</div>
 
 
 
-        <div class="container">
-          <div class="row-fluid">
-        <div class="span12">
-            With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.
-        </div>
-        </div>
-  </div>
+<!-- END REAL CONTENT 
+	***********************************************-->
 
 
+	<?php
+	include 'footer.php';
 
-    <!-- Footer
-    ================================================== -->
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row-fluid">
-      <div class="span4">
-            <h2>About US</h2>  
-            <div class="footer-content">
-hin our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers
-             </div>
-      </div>
-      <div class="span4">
-            <h2>Services</h2>
-            <div class="footer-content">  
-                <ul>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                  <li>Execution Team</li>
-                </ul>
-             </div>
-      </div>
-      <div class="span4">
-             <h2>Quick Contact</h2> 
-             <div class="footer-content">
-                <form>
-                  <span>Name</span>
-                  <input type="text">
-                  <span>Phone</span>
-                  <input type="text">
-                  <span>Message</span>
-                  <textarea></textarea> 
-
-                  <button>Submit</button>
-                </form>
-             </div>
-      </div>
-      </div>
-     </div>
-  </footer>
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery-1.9.1.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-   
-    <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-    </script>
-    <script src="assets/js/holder/holder.js"></script>
-  </body>
-</html>
+	?>

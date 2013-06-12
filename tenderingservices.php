@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Academy-Industry Interface</h1>
+              <h1>Tendering Services</h1>
       </div>
       </div>
      </div>
@@ -27,7 +27,11 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
+         <p>Welcome to this session, this section of portal deals with all the domestic tenders and the organizations who are looking for Joint Venture (JV) partnerships
+     This is the online destination for government tenders, RFPs,  
+     RFQs, RFX in India. You can also find a large no. of tenders published by leading PSUs , govt. 
+     bodies and other  tender  publishers absolutely free of  cost  in  our hosted section, just at the 
+     click of a button.</p>
             </div>
             <div class="span3">
 <?php  

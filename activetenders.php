@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Academy-Industry Interface</h1>
+              <h1>Active Tenders/works</h1>
       </div>
       </div>
      </div>
@@ -27,7 +27,8 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
+          <p>We cover  more  all the government websites and major newspaper  publications from  all across india on a 
+     daily  basis to  bring you business  opportunities  at  one destination.</p>
             </div>
             <div class="span3">
 <?php  

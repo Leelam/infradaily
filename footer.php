@@ -1,45 +1,28 @@
-<footer class="page-footer">
+<?php /*
+Author : Gopala Krishna
+File : footer.php
+Description: preperforably top
+
+***********************************/
+?>
+
+<!-- SCRIPTS -->
+	
+    <!-- Footer
+    ================================================== -->
+  <footer class="page-footer">
     <div class="container">
       <div class="row-fluid">
-      <div class="span4">
-            <h2>About US</h2>  
-            <div class="footer-content">
-hin our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers the HTML5 Boilerplate. While we use much of Normalize within our reset.less, we have removed some elements specifically for Bootstrap.With Bootstrap 2, the old reset block has been dropped in favor of Normalize.css, a project by Nicolas Gallagher and Jonathan Neal that also powers
-             </div>
-      </div>
-      <div class="span4">
-            <h2>Services</h2>
-            <div class="footer-content">  
-                <ul>
-                 <li>Tendering Services</li>
-<li> Execution Team</li>
-<li> Supply Chain Management</li>
-<li>  Legal Advisory Services</li>
-<li>  Quality Assu</li>
-<li>  Human Resources</li>
-<li>  Plant & Machinery</li>
-<li> Finance & Accounting</li>
-<li> Civil Consultancy Services</li>
-<li> Academy-Industry Interface</li>
-
-                </ul>
-             </div>
-      </div>
-      <div class="span4">
-             <h2>Quick Contact</h2> 
-             <div class="footer-content">
-                <form>
-                  <span>Name</span>
-                  <input type="text">
-                  <span>Phone</span>
-                  <input type="text">
-                  <span>Message</span>
-                  <textarea></textarea> 
-
-                  <button>Submit</button>
-                </form>
-             </div>
-      </div>
+        <div class="span5">@ copyrights InfraDaily 2013. </div>
+        <div class="span7"><div class="social pull-right">
+                      <a href="#" class="bblue"><i class="icon-facebook"></i></a>
+                      <a href="#" class="borange"><i class="icon-google-plus"></i></a> 
+                      <a href="#" class="blightblue"><i class="icon-twitter"></i></a>
+                      <a href="#" class="bviolet"><i class="icon-linkedin"></i></a>
+                      <a href="#" class="bred"><i class="icon-pinterest"></i></a>
+                      <a href="#" class="borange"><i class="icon-rss"></i></a>
+                    </div>
+                  </div>
       </div>
      </div>
   </footer>
@@ -59,6 +42,5 @@ hin our reset.less, we have removed some elements specifically for Bootstrap.Wit
         })
       }(window.jQuery)
     </script>
-    <script src="assets/js/holder/holder.js"></script>
   </body>
 </html>

@@ -1,2 +1,2 @@
-infradaily
+CommanProject
 ==========

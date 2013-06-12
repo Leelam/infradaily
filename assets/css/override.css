@@ -3,11 +3,11 @@
     /* Padding below the footer and lighter body text */
 
     body {
-    color: #5a5a5a;
+    color: #444;
       /* fallback */
-    background-color: #fff;
+    background-color: #fdfdfd;
   
-
+font-family:  "PT Sans","verdana", Arial, sans-serif;
     }
 
 h1,h2,h3,h4,h5,h6{
@@ -329,7 +329,8 @@ p{
   font-size: 18px;
 }
 .page-footer{
-  min-height: 200px;
+  height: 40px;
+  line-height: 40px;
 }
 
 .container{
@@ -343,4 +344,154 @@ p{
 .footer-content{
   border-right: 1px solid #eee;
   padding: 10px;
+}
+.carousel {
+margin-bottom: 0px;
+}
+#homeslider{
+    border-top: 1px solid rgb(241, 241, 241);
+  padding-bottom: 0px;
+  margin: 0px 0 10px;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #eee;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
+  background: -webkit-linear-gradient(top, #fff, #eee);
+}
+
+.bs-docs-sidenav {
+  
+  margin: 0px 0 20px;
+  padding: 0;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  
+}
+.bs-docs-sidenav > li > a {
+  display: block;
+  width: 190px \9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.bs-docs-sidenav > li:first-child > a {
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+  
+}
+/* Chevrons */
+.bs-docs-sidenav .icon-chevron-right {
+float: left;
+margin-top: 2px;
+margin-right: 18px;
+opacity: .25;
+}
+.bs-docs-sidenav > li > a:hover {
+  background-color: #f5f5f5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+  opacity: .5;
+}
+.bs-docs-sidenav .active .icon-chevron-right,
+.bs-docs-sidenav .active a:hover .icon-chevron-right {
+  background-image: url(../img/glyphicons-halflings-white.png);
+  opacity: 1;
+}
+.bs-docs-sidenav.affix {
+  top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+
+.carousel .item {
+height: 320px;
+}
+
+.carousel-caption {
+
+margin-top: 85px;
+}
+
+.carousel-control {
+
+opacity: 0.0;
+filter: alpha(opacity=0);
+}
+.social a {
+width: 24px;
+height: 24px;
+margin: 0px 3px;
+line-height: 24px;
+color: #fff;
+display: inline-block;
+text-align: center;
+}
+.bblue,.borange,.blightblue,.bviolet,.bred,.borange{
+color: #fff !important;
+border: 0px !important;
+}
+.bblue {
+background: #1171a3 !important;
+
+}
+.borange {
+background: #f88529 !important;
+}
+.blightblue {
+background: #52b9e9 !important;
+
+}
+.bviolet {
+background: #932ab6 !important;
+}
+.bred {
+background: #fa3031 !important;
+}
+.borange {
+background: #f88529 !important;
+}
+figure{
+  margin: 0;
+  padding: 0;
+}
+#the_real_content{
+  min-height: 600px;
+}
+.text{
+  padding-top: 10px;
+}
+.text li {
+  padding-left: 1.2em;
+  list-style: none;
+}
+
+.text li:before {
+  content: "\F141 "; /*fontawesome char code*/;
+  font-family: FontAwesome; /* or whatever */
+  display: inline-block;
+  margin-left: -1.2em; /*same as padding-left set on li*/
+  width: 1.2em; /*same as padding-left set on li*/
+
+}
+.nav-tabs > li, .nav-pills > li { float: left; font-size: 15px; font-weight: bold; }
+p{
+text-align:justify
 }

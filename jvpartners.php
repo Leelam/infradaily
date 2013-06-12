@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Academy-Industry Interface</h1>
+              <h1>JV Partners</h1>
       </div>
       </div>
      </div>
@@ -27,7 +27,7 @@ include 'header.php';
         <div class="container">
           <div class="row-fluid">
         <div class="span9">
-          <h4>Updating the content</h4>
+          <p>We also  offers a unmatched customer support services to our valued subscribers in terms of finding out the tenders as well as the organizations who are willing to have JVs.</p>
             </div>
             <div class="span3">
 <?php  

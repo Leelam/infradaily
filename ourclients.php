@@ -16,7 +16,7 @@ include 'header.php';
     <div class="container">
       <div class="row-fluid">
       <div class="span12">
-              <h1>Academy-Industry Interface</h1>
+              <h1>Our Clients</h1>
       </div>
       </div>
      </div>
@@ -26,14 +26,10 @@ include 'header.php';
 
         <div class="container">
           <div class="row-fluid">
-        <div class="span9">
+        <div class="span12">
           <h4>Updating the content</h4>
             </div>
-            <div class="span3">
-<?php  
-include_once 'servicessidebar.php';
-?>
-            </div>
+            
         </div>
   </div>
 </div>
